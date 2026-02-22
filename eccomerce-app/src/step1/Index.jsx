@@ -4,8 +4,8 @@ import Addition from "./Addition"
 import Substraction  from "./Substraction";
 
 const CalculatorApp = () => {
-     const num1=20;
-  const num2=10;
+     const x=20;
+  const y=10;
   return (
     <>
 
@@ -22,11 +22,13 @@ const CalculatorApp = () => {
                 </div>
             </div>
     
-      <h1>This is calculator app</h1>
-      <Division a={num1} b={num2} />
-      <Multiplication a={num1} b={num2} />
-      <Addition a={num1} b={num2}/>
-      <Substraction a={num1} b={num2}/>
+      {/* <h1>This is calculator app</h1> */}
+      <Addition x={x} y={y}/>
+      <Substraction x={x} y={y}/>
+      
+      <Multiplication x={x} y={y} />
+      <Division x={x} y={y} />
+      
     </>
   );
 };

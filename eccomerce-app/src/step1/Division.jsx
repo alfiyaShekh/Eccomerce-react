@@ -1,14 +1,14 @@
 
+import Button from "./Button"
 
-let Division=()=>{
-
+let Division = ({x,y})=>{
     let div_click=()=>{
-        alert("division clicked")
+        alert("Division = "+(x/y));
     }
 
     return(
         <>
-       
+        <Button label={"Division"} fn={div_click}/> 
         </>
     )
 }
