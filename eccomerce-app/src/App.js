@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import CalculatorApp from "./step1/Index";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-red-900 text-2xl">Welcome everyone !!</h1>
+    <div>
+      <CalculatorApp />
     </div>
   );
 }
