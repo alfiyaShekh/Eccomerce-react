@@ -1,7 +1,11 @@
 let Multiplication=()=>{
+
+    let mul_click=()=>{
+        alert("multiplication clicked")
+    }
     return(
         <>
-        <p>This is Multiplication</p>
+       
         </>
     )
 }
