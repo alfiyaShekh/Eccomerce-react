@@ -1,8 +1,9 @@
-let substraction = ({data}) => {
+let Substraction = ({data}) => {
     return (
         <>
-            <h1>Substraction</h1>
+            <h1>This is Substraction Component</h1>
             <h2>{data.num1} - {data.num2} = {data.num1 - data.num2}</h2>
         </>
     )
 }   
+export default Substraction;
